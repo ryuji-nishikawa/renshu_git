@@ -23,7 +23,7 @@ try{
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$sql = 'SELECT *, sp.flag as sflag, script.flag as scflag, company.id as id FROM company join sp on company.sp = sp.flag join script on company.script = script.flag'.(isset($_GET['estab_sort'])?' ORDER BY estab_year':'');
 	$st = $pdo->query($sql);
-	echo '<table border="1"><tr><th>会社名</th><th>URL</th><th>spサイト</th><th>言語</th><th>設立年</th><th>従業員数</th><th colspan="2"><a href="insert.php">新規追加</a></th></tr>';
+	echo '<table border="1"><tr><th>会社名</th><th>URL</th><th>spサイト</th><th>スクリプト言語</th><th>設立年</th><th>従業員数</th><th colspan="2"><a href="insert.php">新規追加</a></th></tr>';
 	echo '<tr><th></th><th></th><th></th><th></th><th><a href="'.$_SERVER['SCRIPT_NAME'].'?estab_sort=true">ソート</a></th><th><a href="'.$_SERVER['SCRIPT_NAME'].'">ソート</a></th><th colspan="2"><a href="insert.php"></a></th></tr>';
 	foreach($st as $row){
 		echo '<tr>';
