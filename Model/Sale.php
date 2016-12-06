@@ -9,7 +9,8 @@
 					'conditions' => ''
 				),
 				'Product' => array(
-					'className' => 'Product',
+					/** クラスはProduct2を使う */
+					'className' => 'Product2',
 					'foreignKey' => 'product_id',
 					'order' => '',
 					'conditions' => ''
