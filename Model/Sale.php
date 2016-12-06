@@ -9,8 +9,8 @@
 					'conditions' => ''
 				),
 				'Product' => array(
-					'className' => 'Product',
-						/* 外部キーを変更 */
+					'className' => 'Product2',
+					/* 外部キーを変更 */
 					'foreignKey' => 'channel_id',
 					'order' => '',
 					'conditions' => ''
