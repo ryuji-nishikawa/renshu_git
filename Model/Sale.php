@@ -10,7 +10,7 @@
 				),
 				'Product' => array(
 					'className' => 'Product2',
-					/* 外部キーを変更 */
+					/* 外部キーを変更 コメントを延長追加*/
 					'foreignKey' => 'channel_id',
 					'order' => '',
 					'conditions' => ''
