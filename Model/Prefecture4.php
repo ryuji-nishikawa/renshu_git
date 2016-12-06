@@ -5,7 +5,7 @@ class Prefecture extends AppModel{
 		'className' => 'Customer',
 		'foreignKey' => 'prefecture_id',
 		'dependent' => false,
-		'name' => chenge,
+		'name' => 'Prefecutureを変更してみる',
 	);
 }
 ?>
