@@ -5,4 +5,5 @@
 			$this->rara() = 2;
 		}
 	}
+	/* git pushの練習 */
 ?>
