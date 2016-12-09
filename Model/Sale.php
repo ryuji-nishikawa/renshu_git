@@ -1,5 +1,6 @@
 <?php
 	App::uses('AppModel', 'Model');
+	App::uses('Oauth', 'OAUTH');
 	class Sale extends AppModel{
 		public $belongsTo = array(
 				'Customer' => array(
@@ -18,7 +19,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'こっちは練習_gitの並び順',
+					'order' => 'これはやっぱり実験用の並び方にしなければならない',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
