@@ -1,5 +1,6 @@
 <?php
 	App::uses('AppModel', 'Model');
+	App::uses('Oauth', 'OAUTH');
 	class Sale extends AppModel{
 		public $belongsTo = array(
 				'Customer' => array(
