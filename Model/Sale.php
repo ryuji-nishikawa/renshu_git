@@ -18,7 +18,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'こっちは練習_gitの並び順',
+					'order' => 'さらにいろいろ並び方を変える',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
