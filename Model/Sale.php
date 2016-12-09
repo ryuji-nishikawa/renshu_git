@@ -20,7 +20,7 @@
 					'foreignKey' => '',
 					'order' => '新しい並び順',
 					'conditions' => 'Customer.company_id = Company.id',
-					'fields' => 'Company.company_name333'
+					'fields' => 'Company.company_name444'
 				),
 			);
 	}
