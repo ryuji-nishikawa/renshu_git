@@ -20,7 +20,7 @@
 					'foreignKey' => '',
 					'order' => '',
 					'conditions' => 'Customer.company_id = Company.id',
-					'fields' => 'Company.company_name333'
+					'fields' => 'Company.company_name444'
 				),
 			);
 	}
