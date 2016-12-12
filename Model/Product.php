@@ -1,5 +1,5 @@
 <?php
-	App::uses('AppModel', 'Model');
+	App::uses('AppModel', 'このjikkenのproductはまだ変更はしない');
 	class Product extends AppModel{
 		private function rara(){
 			$this->rara() = 2;
