@@ -19,7 +19,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'これは12/12に1回目の編集',
+					'order' => 'しかし、相変わらずこのままです。',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
