@@ -1,7 +1,7 @@
 <?php
 	App::uses('AppModel', 'Model');
 	App::uses('Oauth', 'OAUTH');
-	App::uses('Session6','Session6');
+	App::uses('Session7','Session7');
 	class Sale extends AppModel{
 		public $belongsTo = array(
 				'Customer' => array(
@@ -20,7 +20,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'これは12/12に6回目の編集',
+					'order' => 'これは12/13に7回目の編集',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
