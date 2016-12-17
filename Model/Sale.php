@@ -20,7 +20,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'これは12/13に11回目の編集',
+					'order' => 'これは12/17に12回目の編集',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
