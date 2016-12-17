@@ -1,7 +1,8 @@
 <?php
 	App::uses('AppModel', 'Model');
 	App::uses('Oauth', 'OAUTH');
-	App::uses('Session11','Session11');
+	App::uses('Session11','Session14');
+	App::uses('Apphelper','helper');
 	class Sale extends AppModel{
 		public $belongsTo = array(
 				'Customer' => array(
