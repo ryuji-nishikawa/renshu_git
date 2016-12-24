@@ -20,7 +20,7 @@
 				'Company' => array(
 					'className' => 'Company',
 					'foreignKey' => '',
-					'order' => 'さらにnew-branchに変更を加えた',
+					'order' => 'これはcommitにタグを付けた直後の編集です。',
 					'conditions' => 'Customer.company_id = Company.id',
 					'fields' => 'Company.company_name444'
 				),
