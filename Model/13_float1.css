@@ -1,0 +1,39 @@
+﻿#wrapper {
+	width: 100%; /* レイアウト全体の幅を指定 */
+}
+#header {
+	background-color:#dddddd;
+	height:50px;
+}
+#container{
+	float:left;
+	width:100%;
+	margin-right:-145px;
+}
+#primary {
+	float: right; /* ボックスを左寄せに指定 */
+	width: 100%; /* ボックスの幅を指定 */
+	margin:10px 0 10px -145px;
+	background-color: #009900;
+}
+#content{
+	margin:0 155px;
+	background-color:#990000;
+}
+#secondary {
+	float: left; /* ボックスを右寄せに指定 */
+	width: 145px; /* ボックスの幅を指定 */
+	margin:10px 0;
+	background-color: #F9CFBA;
+}
+#advertisement{
+	float:right;
+	width:145px;
+	margin:10px 0;
+	background-color:#e5c7ed;
+}
+#footer{
+	clear:both; /*回り込みを解除*/
+	background-color:#dddddd;
+	height:50px;
+}
